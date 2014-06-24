@@ -1,0 +1,125 @@
+.header{
+    width: 980px;
+    margin: 0 auto;
+    border-bottom: 1px solid #efefef;
+}
+.header .logo{
+
+}
+.header .logo img{
+    width: 180px;
+}
+.main{
+    clear: both;
+    width: 980px;
+    margin: 0 auto;
+    padding-top: 20px;
+    padding-bottom: 20px;
+}
+.main .order{
+    padding: 0 20px;
+}
+.main .order .left{
+    width: 200px;
+    float: left;
+    margin-right: 40px;
+}
+.main .order .left img{
+    width: 180px;
+    height: 180px;
+}
+.main .order .right{
+    width: 600px;
+    float: left;
+}
+.main .order .right h2{
+    margin: 0;
+    padding: 0;
+    font-size: 22px;
+    font-weight: bold;
+    padding-bottom: 10px;
+}
+.main .order .right .sub-title{
+    color: #c30;
+}
+.main .detail{
+    clear: both;
+    padding-top: 10px;
+}
+.main .detail h3{
+    font-size: 20px;
+    font-weight: bold;
+}
+
+.footer{
+    clear: both;
+    width: 980px;
+    margin: 0 auto;
+    padding-top: 20px;
+    border-top: 1px solid #efefef;
+}
+.footer .join-us{
+    width: 400px;
+    float: left;
+}
+.footer .links{
+    width: 400px;
+    float: left;
+}
+.footer .footer-title{
+    font-weight: bold;
+}
+
+.wx-focus{
+    position: fixed;
+    right: 10px;
+    top: 150px;
+}
+
+
+.order-num{
+    width: 50px;
+    text-align: center;
+}
+.reg-form{
+}
+.reg-form p{
+}
+.reg-form p label{
+	font-weight: normal;
+}
+.reg-form input{
+}
+
+.links{
+    display: none;
+}
+.line{
+    border-bottom: 1px solid #efefef;
+    margin-bottom: 10px;
+}
+.upload-avatar{
+    margin-top: 15px;
+}
+#overlay {
+    position:absolute;
+    top:0;
+    left:0;
+    width:100%;
+    height:100%;
+    background:#000;
+    opacity:0.5;
+    filter:alpha(opacity=50);
+}
+#win {
+    position:absolute;
+    top:50%;
+    left:50%;
+    width:400px;
+    height:200px;
+    background:#fff;
+    margin:-102px 0 0 -202px;
+    line-height: 200px;
+    text-align: center;
+    border: 4px solid #CCC;
+}

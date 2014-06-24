@@ -8,7 +8,7 @@ class UserDB {
 
     //获取用户数据
     public static function getUserList() {
-        $sql = 'SELECT * FROM user';
+        $sql = 'SELECT * FROM bd_ct_user';
         $dbcfg = Conf::$db['UserDB'];
         $db = DB::getInstance($dbcfg);
         $tmp = $db->get_rs($sql);
@@ -18,7 +18,7 @@ class UserDB {
 
     //添加用户
     public static function addUser($post){
-        $sql = 'INSERT INTO user(`name`, sex, height, weight, size, email, mobile, address, blessings,update_time )VALUES(:name, :sex, :height, :weight, :size, :email, :mobile, :address, :blessings, NOW())';
+        $sql = 'INSERT INTO bd_ct_user(`name`, sex, height, weight, size, email, mobile, address, blessings,update_time )VALUES(:name, :sex, :height, :weight, :size, :email, :mobile, :address, :blessings, NOW())';
         $dbcfg = Conf::$db['UserDB'];
         $params = array(
             'name' => $post['name'],

@@ -3,6 +3,7 @@
 class ConfBase {
 
     public static $db = array(
+        // dev
         'UserDB' => array(
             "host" => "localhost",
             "user" => "root",
